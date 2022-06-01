@@ -1,0 +1,6 @@
+print("Ingrese el valor de la compra realizada")
+valor_Compra = float(input())
+print("Ingrese el valor del porcentaje de descuento de la compra realizada")
+valor_Descuento = float(input())
+total = valor_Compra*100/(100-valor_Descuento)
+print("El valor real de la compra realizada es ", total)
